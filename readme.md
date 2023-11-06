@@ -1,0 +1,5 @@
+app.use('/api/user',userRoute)
+app.use('/api/bill',billRoute)
+app.use('/api/bank',bankRoute)
+app.use('/api/customer',customerRoute)
+app.use('/api/product',productRoute)
