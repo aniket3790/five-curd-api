@@ -6,6 +6,6 @@ route.get('/',getCustomer)
 route.post('/',postCustomer)
 
 route.put('/:id',putCustomer)
-route.delete('/id',deleteCustomer)
+route.delete('/:id',deleteCustomer)
 
 module.exports = route

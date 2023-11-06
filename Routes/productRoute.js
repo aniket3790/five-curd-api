@@ -6,6 +6,6 @@ route.get('/',getProduct)
 route.post('/',postProduct)
 
 route.put('/:id',putProduct)
-route.delete('/id',deleteProduct)
+route.delete('/:id',deleteProduct)
 
 module.exports = route
