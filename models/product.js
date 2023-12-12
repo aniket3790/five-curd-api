@@ -12,6 +12,10 @@ const productSchema = new mongoose.Schema({
     createdDate:{
         type:Date,
         default:Date.now()
+    },
+    thumbnail:{
+        type:String,
+        required:true
     }
 })
 
